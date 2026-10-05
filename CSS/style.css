@@ -1,0 +1,312 @@
+/* Basic page style */
+
+body { 
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial; 
+    color: #111111; 
+    background-color: #ffffff; 
+} 
+
+/* Website header */
+
+header { 
+    background-color: #111111; 
+    padding: 20px; 
+} 
+
+.logo { 
+    color: #f3e5c8; 
+    text-decoration: none; 
+    font-size: 22px; 
+    font-weight: bold; 
+} 
+
+/* Navigation menu */
+
+nav { 
+    text-align: center; 
+    margin-top: -20px; 
+} 
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 10px; 
+} 
+
+/* Book now button */
+
+.book { 
+    float: right; 
+    background-color: #f47b20; 
+    color: black; 
+    padding: 10px; 
+    text-decoration: none; 
+    margin-top: -25px; 
+} 
+
+/* Main content */
+
+main { 
+    width: 85%; 
+    margin: auto;
+    flex: 1;
+} 
+
+/* Main section in the homepage */
+
+.hero { 
+    margin-top: 60px; 
+    margin-bottom: 70px; 
+} 
+
+.hero img { 
+    width: 50%; 
+    height: 320px; 
+    object-fit: cover; 
+} 
+
+.hero-text { 
+    width: 40%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-left: 5%; 
+} 
+
+.hero-text h1 { 
+    font-size: 40px; 
+} 
+
+.hero-text p { 
+    line-height: 1.5; 
+} 
+
+/* Main buttons */
+
+.button { 
+    background-color: #f47b20; 
+    color: black; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+} 
+
+/* Services section */
+
+.services { 
+    margin-bottom: 60px; 
+} 
+
+.card { 
+    width: 30%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 2%; 
+} 
+
+.card img { 
+    width: 100%; 
+    height: 170px; 
+    object-fit: cover; 
+} 
+
+.card p { 
+    line-height: 1.5; 
+} 
+
+.price { 
+    font-weight: bold; 
+} 
+
+/* Promotions section */
+
+.promotion { 
+    background-color: #111111; 
+    color: white; 
+    padding: 25px; 
+    margin-bottom: 60px; 
+} 
+
+.promotion h2 { 
+    color: #f47b20; 
+} 
+
+/* Page titles */
+
+.page-title { 
+    text-align: center; 
+    margin: 60px 0 40px; 
+} 
+
+/* About page */
+
+.about-image { 
+    width: 48%; 
+    height: 300px; 
+    object-fit: cover; 
+} 
+
+.about-text { 
+    width: 45%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-left: 5%; 
+    line-height: 1.5; 
+} 
+
+/* Forms */
+
+.form { 
+    width: 60%; 
+    margin: auto; 
+} 
+
+.form input, 
+.form select, 
+.form textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0 15px; 
+} 
+
+.form textarea { 
+    height: 100px; 
+} 
+
+/* Location information */
+
+.location { 
+    width: 40%; 
+    display: inline-block; 
+    padding: 20px; 
+    vertical-align: top; 
+} 
+
+/* Website footer */
+
+footer { 
+    background-color: #111111; 
+    color: white; 
+    padding: 30px; 
+    margin-top: 60px; 
+    text-align: center; 
+} 
+
+footer div { 
+    display: inline-block; 
+    width: 30%; 
+    vertical-align: top; 
+} 
+
+footer h3 { 
+    color: #f47b20; 
+} 
+
+
+/* Tablet version */
+
+@media (max-width: 900px) {
+
+    main {
+        width: 90%;
+    }
+
+    .hero img {
+        width: 48%;
+    }
+
+    .hero-text {
+        width: 45%;
+        margin-left: 3%;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .form {
+        width: 75%;
+    }
+
+    .location {
+        width: 40%;
+    }
+
+}
+
+
+/* Mobile version */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 8px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 4px 8px;
+        font-size: 12px;
+    }
+
+    .book {
+        float: none;
+        display: inline-block;
+        margin-top: 8px;
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .hero {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .hero img,
+    .hero-text,
+    .about-image,
+    .about-text {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .location {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    footer div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
