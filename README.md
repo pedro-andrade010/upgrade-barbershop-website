@@ -122,3 +122,36 @@ Unsplash, n.d. *License.* Available at: https://unsplash.com/license (Accessed: 
 AI Declaration
 
 ChatGPT was used to assist with organising and refining some areas of the project to make the final work more professional. The  decisions, content and implementation were taken and reviewed by the student.
+
+
+## Responsive Design Testing
+
+The website was tested on desktop, tablet and mobile screen sizes.
+The layout, navigation, images and content were adjusted to remain
+clear and usable across different screen sizes.
+
+
+### Desktop
+
+![Desktop version](images/desktop.png.png)
+
+### Tablet
+
+![Tablet version](images/tablet.png.png)
+
+### Mobile
+
+![Mobile version](images/mobile.png.png)
+
+
+The website was tested on desktop, tablet and mobile screen sizes.
+The layout, navigation, images and content were adjusted to remain
+clear and usable across different screen sizes.
+
+## Changelog
+
+### Phase 2
+- Added responsive CSS for tablet and mobile screens.
+- Improved navigation on smaller screens.
+- Adjusted images and content widths for smaller devices.
+- Tested the website on desktop, tablet and mobile screen sizes.
