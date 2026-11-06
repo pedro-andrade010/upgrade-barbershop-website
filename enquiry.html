@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upgrade Barbershop - Enquiry</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+ 
+<!-- Header and navigation -->
 <header>
     <a class="logo" href="index.html">UPGRADE BARBERSHOP</a>
     <nav>
@@ -18,41 +20,58 @@
     </nav>
     <a class="book" href="contact.html">BOOK NOW</a>
 </header>
+ 
 <!-- Customer enquiry form -->
 <main>
     <div class="page-title">
         <h1>ENQUIRY</h1>
         <p>Have a question? Send us a message.</p>
     </div>
-
+ 
     <div class="form">
         <form>
-            <label>Name</label>
-            <input type="text" placeholder="Your name">
-
-            <label>Email</label>
-            <input type="email" placeholder="Your email">
-
-            <label>Service</label>
-            <select>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+ 
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email">
+ 
+            <label for="service">Service</label>
+            <select id="service">
                 <option>Select a service</option>
                 <option>Classic Haircut</option>
                 <option>Hair + Beard</option>
-                <option>Beard Groming</option>
+                <option>Beard Grooming</option>
+                <option>Premium Upgrade</option>
+                <option>Kids Haircut</option>
+                <option>Styling</option>
             </select>
-
-            <label>Message</label>
-            <textarea placeholder="Write your enquiry"></textarea>
+ 
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your enquiry"></textarea>
+ 
             <button class="button" type="submit">SEND ENQUIRY</button>
         </form>
     </div>
 </main>
-
+ 
+<!-- Website footer (same on every page) -->
 <footer>
-    <div><h3>CONTACT</h3><p>info@upgradebarbershop.co.za</p></div>
-    <div><h3>OPENING HOURS</h3><p>Mon - Fri: 09:00 - 18:00</p></div>
-    <div><h3>SOCIAL MEDIA</h3><p>Instagram</p></div>
+    <div>
+        <h3>CONTACT</h3>
+        <p>info@upgradebarbershop.co.za</p>
+    </div>
+    <div>
+        <h3>OPENING HOURS</h3>
+        <p>Mon - Fri: 09:00 - 18:00</p>
+        <p>Saturday: 09:00 - 16:00</p>
+    </div>
+    <div>
+        <h3>SOCIAL MEDIA</h3>
+        <p>Instagram</p>
+        <p>Facebook</p>
+    </div>
 </footer>
-
+ 
 </body>
 </html>
