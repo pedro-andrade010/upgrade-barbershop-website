@@ -1,11 +1,11 @@
 /* Basic page style */
- 
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
- 
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -15,12 +15,12 @@ body {
     color: #111111;
     background-color: #ffffff;
 }
- 
+
 img {
     max-width: 100%;
     display: block;
 }
- 
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -29,9 +29,9 @@ textarea:focus-visible {
     outline: 3px solid #f47b20;
     outline-offset: 2px;
 }
- 
+
 /* Website header */
- 
+
 header {
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ header {
     background-color: #111111;
     padding: 20px;
 }
- 
+
 .logo {
     color: #f3e5c8;
     text-decoration: none;
@@ -49,9 +49,9 @@ header {
     font-weight: bold;
     white-space: nowrap;
 }
- 
+
 /* Navigation menu */
- 
+
 nav {
     flex: 1;
     display: flex;
@@ -59,19 +59,19 @@ nav {
     flex-wrap: wrap;
     gap: 6px 20px;
 }
- 
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 6px 0;
 }
- 
+
 nav a:hover {
     color: #f47b20;
 }
- 
+
 /* Book now button */
- 
+
 .book {
     background-color: #f47b20;
     color: black;
@@ -79,17 +79,17 @@ nav a:hover {
     text-decoration: none;
     white-space: nowrap;
 }
- 
+
 /* Main content */
- 
+
 main {
     width: 85%;
     margin: auto;
     flex: 1;
 }
- 
+
 /* Main section in the homepage */
- 
+
 .hero {
     display: flex;
     align-items: flex-start;
@@ -97,29 +97,29 @@ main {
     margin-top: 60px;
     margin-bottom: 70px;
 }
- 
+
 .hero img {
     flex: 0 0 50%;
     width: 50%;
     height: 320px;
     object-fit: cover;
 }
- 
+
 .hero-text {
     flex: 1;
 }
- 
+
 .hero-text h1 {
     font-size: 40px;
     margin-top: 0;
 }
- 
+
 .hero-text p {
     line-height: 1.5;
 }
- 
+
 /* Main buttons */
- 
+
 .button {
     display: inline-block;
     background-color: #f47b20;
@@ -131,118 +131,118 @@ main {
     font-size: 16px;
     cursor: pointer;
 }
- 
+
 /* Services section and cards */
- 
+
 .services {
     margin-bottom: 60px;
 }
- 
+
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 60px;
 }
- 
+
 .services .cards {
     margin-bottom: 0;
 }
- 
+
 .card {
     display: flex;
     flex-direction: column;
 }
- 
+
 .card img {
     width: 100%;
     height: 170px;
     object-fit: cover;
 }
- 
+
 .card h3 {
     margin: 15px 0 0;
 }
- 
+
 .card p {
     line-height: 1.5;
     margin: 8px 0 0;
 }
- 
+
 /* Price (and button) stay at the bottom so every card lines up */
 .card .price {
     font-weight: bold;
     margin-top: auto;
     padding-top: 12px;
 }
- 
+
 .card .button {
     align-self: flex-start;
     margin-top: 12px;
 }
- 
+
 /* Promotions section */
- 
+
 .promotion {
     background-color: #111111;
     color: white;
     padding: 25px;
     margin-bottom: 60px;
 }
- 
+
 .promotion h2 {
     color: #f47b20;
     margin-top: 0;
 }
- 
+
 /* Page titles */
- 
+
 .page-title {
     text-align: center;
     margin: 60px 0 40px;
 }
- 
+
 /* About page */
- 
+
 .about {
     display: flex;
     align-items: flex-start;
     gap: 5%;
 }
- 
+
 .about-image {
     flex: 0 0 48%;
     width: 48%;
     height: 300px;
     object-fit: cover;
 }
- 
+
 .about-text {
     flex: 1;
     line-height: 1.5;
 }
- 
+
 .about-text h2 {
     margin-top: 0;
 }
- 
+
 .philosophy-text {
     max-width: 600px;
     margin: 20px auto 0;
     line-height: 1.5;
 }
- 
+
 /* Forms */
- 
+
 .form {
     width: 60%;
     margin: auto;
 }
- 
+
 .form label {
     font-weight: bold;
 }
- 
+
 .form input,
 .form select,
 .form textarea {
@@ -253,32 +253,32 @@ main {
     font-family: inherit;
     font-size: 16px;
 }
- 
+
 .form textarea {
     height: 100px;
     resize: vertical;
 }
- 
+
 /* Location information */
- 
+
 .locations {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
- 
+
 .location {
     flex: 1 1 260px;
     padding: 20px;
     border: 1px solid #dddddd;
 }
- 
+
 .location h3 {
     margin-top: 0;
 }
- 
+
 /* Website footer */
- 
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -290,131 +290,609 @@ footer {
     margin-top: 60px;
     text-align: center;
 }
- 
+
 footer div {
     flex: 1 1 200px;
 }
- 
+
 footer h3 {
     color: #f47b20;
     margin-top: 0;
 }
- 
- 
+
+
+/* ===== Part 3 additions ===== */
+
+/* Accessibility helpers */
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: #f47b20;
+    color: black;
+    padding: 10px 15px;
+    z-index: 3000;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+.visually-hidden,
+.hp {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+nav a[aria-current="page"] {
+    color: #f47b20;
+    border-bottom: 2px solid #f47b20;
+}
+
+/* Links inside text */
+
+.text-link {
+    color: #a64b00;
+    font-weight: bold;
+}
+
+.promotion .text-link {
+    color: #f9a867;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #f47b20;
+}
+
+.more-link {
+    margin: 30px 0 0;
+    line-height: 1.5;
+}
+
+.leaflet-container img {
+    max-width: none;
+}
+
+/* Animations and transitions */
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
+}
+
+main {
+    animation: fade-in 0.5s ease both;
+}
+
+.button,
+.book {
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.button:hover,
+.book:hover {
+    background-color: #ff9347;
+}
+
+.button:active,
+.book:active {
+    transform: scale(0.97);
+}
+
+.card,
+.location {
+    transition: box-shadow 0.3s ease, opacity 0.6s ease, transform 0.6s ease;
+}
+
+.card:hover,
+.location:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+    transition: filter 0.3s ease;
+}
+
+.card:hover img {
+    filter: brightness(1.1);
+}
+
+/* Scroll reveal (the .reveal class is only added by JavaScript) */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.3s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* Services: search, filter and sort */
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.controls div {
+    flex: 1 1 200px;
+}
+
+.controls label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.controls input,
+.controls select {
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.result-count {
+    margin: 0 0 25px;
+    min-height: 1.5em;
+}
+
+/* Forms: validation messages and status */
+
+.form .invalid {
+    border: 2px solid #b3261e;
+}
+
+.error,
+.error-text {
+    display: block;
+    color: #b3261e;
+    font-size: 14px;
+    margin: -10px 0 15px;
+}
+
+.error:empty {
+    display: none;
+}
+
+.form-status {
+    margin: 15px 0 0;
+}
+
+.form-status.error-text {
+    margin: 15px 0 0;
+    font-weight: bold;
+}
+
+.success-text {
+    color: #1b6e2e;
+    font-weight: bold;
+}
+
+.form .button {
+    margin-top: 5px;
+}
+
+.form .button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+/* Enquiry response and email preview */
+
+.response,
+.email-preview:not(:empty) {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #faf6ef;
+    border-left: 5px solid #f47b20;
+    line-height: 1.5;
+}
+
+.response h2,
+.email-preview h3 {
+    margin-top: 0;
+}
+
+.details {
+    padding-left: 20px;
+}
+
+.details li {
+    margin-bottom: 6px;
+}
+
+.email-preview pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    font-family: inherit;
+}
+
+.email-preview .note {
+    font-size: 14px;
+}
+
+/* Accordion (FAQ) */
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #dddddd;
+}
+
+.accordion h3 {
+    margin: 0;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 16px 4px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.accordion-button::after {
+    content: "+";
+    font-size: 26px;
+    line-height: 1;
+    color: #f47b20;
+    transition: transform 0.3s ease;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    transform: rotate(45deg);
+}
+
+.accordion-panel {
+    overflow: hidden;
+}
+
+.js .accordion-panel {
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-panel p {
+    margin: 0 4px 16px;
+    line-height: 1.5;
+}
+
+/* Modal window */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 2000;
+}
+
+.modal-overlay.open {
+    opacity: 1;
+}
+
+.modal {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 28px;
+    background-color: #ffffff;
+    line-height: 1.5;
+    transform: translateY(20px) scale(0.97);
+    transition: transform 0.25s ease;
+}
+
+.modal-overlay.open .modal {
+    transform: none;
+}
+
+.modal h2 {
+    margin-top: 0;
+    padding-right: 30px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Gallery and lightbox */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: zoom-in;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+    transform: scale(1.06);
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 2000;
+}
+
+.lightbox.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox figure {
+    margin: 0;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 90vw;
+    max-height: 78vh;
+    margin: 0 auto;
+}
+
+.lightbox figcaption {
+    color: white;
+    margin-top: 12px;
+}
+
+.lightbox-close,
+.lightbox-nav {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.lightbox-close {
+    top: 12px;
+    right: 20px;
+    font-size: 40px;
+}
+
+.lightbox-nav {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 16px;
+    font-size: 56px;
+}
+
+.lightbox-prev { left: 5px; }
+.lightbox-next { right: 5px; }
+
+.lightbox-close:hover,
+.lightbox-nav:hover {
+    color: #f47b20;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+/* Map */
+
+#map {
+    position: relative;
+    z-index: 0;
+    height: 380px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+}
+
+#nearest-result {
+    min-height: 1.5em;
+}
+
+.locations {
+    margin-top: 20px;
+}
+
+/* Respect visitors who prefer less motion */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}
+
 /* Tablet version */
- 
+
 @media (max-width: 900px) {
- 
+
     /* Logo and button share the first row, menu goes on its own row below */
     nav {
         order: 3;
         flex: 0 0 100%;
     }
- 
+
     main {
         width: 90%;
     }
- 
+
     .hero img {
         flex-basis: 48%;
         width: 48%;
     }
- 
+
     .hero-text h1 {
         font-size: 34px;
     }
- 
+
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
- 
+
     .form {
         width: 75%;
     }
- 
+
 }
- 
- 
+
+
 /* Mobile version */
- 
+
 @media (max-width: 600px) {
- 
+
     header {
         flex-direction: column;
         padding: 12px;
         text-align: center;
     }
- 
+
     nav {
         order: 0;
         flex: none;
         width: 100%;
         gap: 4px 14px;
     }
- 
+
     nav a {
         font-size: 13px;
     }
- 
+
     .book {
         padding: 8px 12px;
         font-size: 13px;
     }
- 
+
     main {
         width: 90%;
     }
- 
+
     .hero {
         flex-direction: column;
         gap: 20px;
         margin-top: 25px;
         margin-bottom: 40px;
     }
- 
+
     .hero img {
         flex: none;
         width: 100%;
         height: 220px;
     }
- 
+
     .hero-text {
         flex: none;
         width: 100%;
     }
- 
+
     .hero-text h1 {
         font-size: 30px;
     }
- 
+
     .about {
         flex-direction: column;
         gap: 20px;
     }
- 
+
     .about-image {
         flex: none;
         width: 100%;
     }
- 
+
     .about-text {
         flex: none;
         width: 100%;
     }
- 
+
     .cards {
         grid-template-columns: 1fr;
         gap: 30px;
     }
- 
+
+    #map {
+        height: 300px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .lightbox-nav {
+        font-size: 44px;
+        padding: 8px;
+    }
+
     .form {
         width: 100%;
     }
- 
+
     footer {
         flex-direction: column;
         margin-top: 30px;
         padding: 20px;
     }
- 
+
 }

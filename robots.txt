@@ -1,0 +1,7 @@
+# Upgrade Barbershop - instructions for search engine crawlers
+User-agent: *
+Allow: /
+# Project documentation is not a page for visitors
+Disallow: /README.md
+
+Sitemap: https://upgrade-barbershop.netlify.app/sitemap.xml
