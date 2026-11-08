@@ -94,7 +94,7 @@ Home
     └── Booking Form
 
 
-References
+# References - Part 1 (and css images)
 
 Allegro Digital Team, 2026. How Much Does a Website Cost in South Africa? (2026 Price Guide). Available at: https://www.allegrodigital.co.za/articles/how-much-does-website-cost-south-africa (Accessed: 1 September 2026).
 
@@ -124,6 +124,15 @@ AI Declaration
 ChatGPT was used to assist with organising and refining some areas of the project to make the final work more professional. The  decisions, content and implementation were taken and reviewed by the student.
 
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+# Part 2-
+
 ## Responsive Design Testing
 
 The website was tested on desktop, tablet and mobile screen sizes.
@@ -148,6 +157,19 @@ The website was tested on desktop, tablet and mobile screen sizes.
 The layout, navigation, images and content were adjusted to remain
 clear and usable across different screen sizes.
 
+## Timeline and Milestones
+
+### Part 2 
+Milestone	            Task	                                                                 Completion Date
+
+1	                    Develop website structure using HTML and CSS	                         30 September 2026
+2                     Size adjustment across different devices                               2 October 2026
+3	                    Test website, correct errors and refine the design	                   3 October 2026
+4  	                  Final review and submission	                                           5 October 2026
+
+
+
+
 ## Changelog
 
 ### Phase 2
@@ -155,3 +177,40 @@ clear and usable across different screen sizes.
 - Improved navigation on smaller screens.
 - Adjusted images and content widths for smaller devices.
 - Tested the website on desktop, tablet and mobile screen sizes.
+
+
+# References - Part 2 
+
+
+Unsplash, n.d. License. Available at: https://unsplash.com/license (Accessed: 1 September 2026).
+
+Unsplash, n.d. *Barbershop styling photograph.* Available at: https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4 (Accessed: 1 September 2026).
+
+Unsplash, n.d. *Classic haircut photograph.* Available at: https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5 (Accessed: 1 September 2026).
+
+Unsplash, n.d. *Regular haircut photograph.* Available at: https://images.unsplash.com/photo-1622287162716-f311baa1a2b8 (Accessed: 1 September 2026).
+
+Pexels, n.d. *Kids haircut photograph.* Available at: https://images.pexels.com/photos/7697477/pexels-photo-7697477.jpeg (Accessed: 1 September 2026).
+
+Pexels, n.d. *Kids haircut photograph.* Available at: https://images.pexels.com/photos/2062463/pexels-photo-2062463.jpeg (Accessed: 1 September 2026).
+
+Pexels, n.d. *Beard grooming photograph.* Available at: https://images.pexels.com/photos/9992819/pexels-photo-9992819.jpeg (Accessed: 1 September 2026).
+
+Pexels, n.d. *Barbershop interior photograph.* Available at: https://images.pexels.com/photos/17665771/pexels-photo-17665771.jpeg (Accessed: 1 September 2026).
+
+Unsplash, n.d. *Barber machines photograph.* Available at: https://images.unsplash.com/photo-1621605815971-fbc98d665033 (Accessed: 1 September 2026).
+
+Unsplash, n.d. *License.* Available at: https://unsplash.com/license (Accessed: 1 September 2026).
+
+
+AI Declaration
+
+ChatGPT was used to assist with organising and refining some areas of the project to make the final work more professional. The  decisions, content and implementation were taken and reviewed by the student.
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
