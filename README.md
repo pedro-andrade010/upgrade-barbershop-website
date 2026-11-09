@@ -146,11 +146,11 @@ clear and usable across different screen sizes.
 
 ### Tablet
 
-![Tablet version](images/tablet-screen.png.png)
+![Tablet version](images/tablet-screen.png)
 
 ### Mobile
 
-![Mobile version](images/mobile-screen.png.png)
+![Mobile version](images/mobile-screen.png)
 
 
 
