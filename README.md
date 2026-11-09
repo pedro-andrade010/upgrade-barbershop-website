@@ -142,17 +142,16 @@ clear and usable across different screen sizes.
 
 ### Desktop
 
-![Desktop version](images/desktop-screen.png.png)
+![Desktop version](images/desktop-screen.png)
 
 ### Tablet
 
-![Tablet version](images/tablet_screen.png.png)
+![Tablet version](images/tablet-screen.png.png)
 
 ### Mobile
 
-![Mobile version](images/mobile_screen.png.png)
+![Mobile version](images/mobile-screen.png.png)
 
-![Mobile footer version](images/mobile_screen_footer.png.png)
 
 
 The website was tested on desktop, tablet and mobile screen sizes.
@@ -274,8 +273,15 @@ robots.txt and sitemap.xml: robots.txt allows crawling and points to sitemap.xml
 
 ## Deployment
 
-The website is deployed on Netlify from the GitHub repository, so every push to the main branch updates the live site.
+The website is deployed on Netlify from the GitHub repository, so every push to the main branch updates the live site. The link is: https://upgradebarbershop.netlify.app
 
+
+## Off-Page SEO and Social Media Promotion
+
+Instagram profile: https://www.instagram.com/upgradebarbershop/
+
+The profile is identified in its bio as a student project for a fictional barbershop.
+The website link (https://upgradebarbershop.netlify.app) is placed in the Instagram bio, which gives the site a backlink and a way for visitors to find it.
 
 
 ## Timeline and Milestones
@@ -315,6 +321,8 @@ Milestone	            Task	                                                     
 - Added security headers, SRI, honeypot protection and accessibility improvements.
 - Updated the README with Part 3 details, changelog and references.
 
+-Added the Instagram profile to the structured data and a social media promotion section to this README.
+-Updated this README with the Part 3 information, changelog and references.
 
 
 # References - Part 3
@@ -339,4 +347,3 @@ Netlify, n.d. Netlify Docs: Deploy sites and custom headers. Available at: https
 AI Declaration
 
 Claude (Anthropic) was used as an additional resource to help refine more complex areas, including the testing API and selected JavaScript elements, improving the overall functionality and professionalism of the project. All main development, decisions and implementation were carried out by the student.
-
